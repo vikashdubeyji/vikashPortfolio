@@ -16,16 +16,19 @@ body{
 }
 .head{
     display:flex;
-    justify-content: space-between;
+    justify-content:center;
 }
-.head > .first{
+/*.head > .first{
     font-size: 3rem;
     text-decoration-line: underline;
     padding-left: 2rem;
     color: aquamarine;
-}
-.head > .second{
-    margin-right:6rem;
+} */
+.second{
+    /* margin-right:6rem; */
+    /* max-width: 80%; */
+    display: flex;
+    justify-content: center;
 }
 nav{
     margin-top: 2rem;
@@ -38,6 +41,7 @@ nav > a{
 }
 .main{
     padding-top:8rem;
+    display: flex;
 }
 .image1{
     width: 300px;
@@ -46,12 +50,13 @@ nav > a{
     margin-left:1rem;
 }
 .infobox{
-    width: 50rem;
+    width: 60rem;
     height:20rem;
     /* background-color:; */
     float:right;
-    margin-right: 15rem;
+    margin-right:1rem;
     margin-top:1rem;
+    padding-left: 5rem;
 }
 .infobox1{
     max-width: 60%;
@@ -64,4 +69,11 @@ span{
 .infobox2{
     max-width:60%;
     font-size:1.5rem;
+}
+@media(max-width:600px){
+    .main{
+        display: flex;
+        flex-direction: column;
+
+    }
 }
