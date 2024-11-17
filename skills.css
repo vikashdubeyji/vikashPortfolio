@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(6, 5, 56);
+}
+.supercontainer{
+    height: 100%;
+    width:100%;
+    color: white;
+}
+
+.head1{
+    text-align:center;
+    text-decoration-line:underline;
+    font-size: 2rem;
+}
+nav{
+    margin-top: 2rem;
+}
+nav > a{
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.image1{
+    width: 20rem;
+    float: left;
+    margin:2rem;
+}
+.image2{
+    width:20rem;
+    float: right;
+    margin:2rem;
+}
+.skillinfo{
+    font-size: 2rem;
+    margin-top:4rem;
+    margin-left:20rem
+}

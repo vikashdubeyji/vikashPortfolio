@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(6, 5, 56);
+}
+.supercontainer{
+    height: 100%;
+    width:100%;
+    color: white;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 3rem;
+    text-decoration-line: underline;
+    padding-left: 2rem;
+    color: aquamarine;
+}
+.head > .second{
+    margin-right:6rem;
+}
+nav{
+    margin-top: 2rem;
+}
+nav > a{
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 1rem;
+    margin-right:2rem;
+}
+.collge{
+    border:0.2rem solid white;
+    font-size: 2rem;
+    display: inline-block;
+    padding:1rem 3rem;
+    margin-left: 10rem;
+    margin-top:5rem;
+    margin-bottom: 1rem;
+}
+.school{
+    width:50rem;
+    max-width: 80%;
+    height:60%;
+    margin-left: 10rem;
+    /* margin-top: 8rem; */
+}
+.c10{
+    border:0.2rem solid white;
+    font-size: 2rem;
+    display: inline-block;
+    padding:1rem 3rem;
+}
+.c12{
+    border:0.2rem solid white;
+    font-size: 2rem;
+    display: inline-block;
+    padding:1rem 3rem; 
+}
+.cl12th{
+    margin-bottom: 0.5rem;
+}
+.image{
+    width:18rem;
+    height: auto;
+    float:right;
+    padding-bottom: 4rem;
+    padding-right:2rem;
+    margin-top:4.5rem;
+    border-radius:10px;
+}

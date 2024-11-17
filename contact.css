@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(6, 5, 56);
+}
+.supercontainer{
+    height: 100%;
+    width:100%;
+    color: white;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 3rem;
+    text-decoration-line: underline;
+    padding-left: 2rem;
+    color: aquamarine;
+}
+.head > .second{
+    margin-right:6rem;
+}
+nav{
+    margin-top: 2rem;
+}
+nav > a{
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 1rem;
+    margin-right:2rem;
+}
+.social{
+    width:100%;
+    max-width:100%;
+    height:5rem;
+    background-color: rgb(88, 69, 69);
+    margin-top:4rem;
+    padding-left:2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.yout{
+    width:5rem;
+    background-color:white;
+}
+.insta{
+    width:5rem;
+    background-color:white;
+}
+.face{
+    width:5rem;
+    background-color:white;
+}
+.what{
+    width:5rem;
+    background-color:white;
+}
+.linked{
+    width:5rem;
+    background-color:white;
+}
+a{
+    margin-right:1rem;
+
+}
+.feedbackform{
+    margin-top: 6rem;
+}
+.feedForm{
+    font-size: 2rem;
+}
+ṁ

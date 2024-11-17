@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(6, 5, 56);
+}
+.supercontainer{
+    height: 100%;
+    width:100%;
+    color: white;
+}
+
+/* .head1{
+    text-align:center;
+    text-decoration-line:underline;
+} */
+nav{
+    margin-top: 2rem;
+}
+nav > a{
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.main{
+    padding-top: 4rem;
+}
+.image2{
+    float:left;
+    width:16rem;
+    height:auto;
+    margin:4rem;
+    border-radius:10px;
+} 
+.info{
+    margin-top: 8rem;
+    font-size:1.5rem;
+    max-width:60%;
+}
+ol{
+    margin-left: 10rem;
+}
